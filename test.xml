@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding= "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"  >
+<suite name="Regression">
+    <test  name="onChrome">
+        <parameter name="browser" value="chrome"/>
+        <classes >
+            <class name="LevelsetHomeTest3"/>
+        </classes>
+    </test>
+    <test  name="onFirefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="LevelsetHomeTest3"/>
+        </classes>
+    </test>
+</suite>
